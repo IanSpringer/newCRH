@@ -1,0 +1,180 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Medical Clinic
+ * @version 	1.0.2
+ * 
+ * Timetable RTL Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+.tabs_box_navigation .tabs_box_navigation_selected:before {
+	content: '\e946'; /* Check this rule! */
+	left: 15px;
+	right: auto;
+}
+
+.tabs_box_navigation .tabs_box_navigation_selected label {
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+.tabs_box_navigation .tabs_box_navigation_selected .sub-menu {
+	left: -2px;
+	right: -2px;
+}
+
+.ui-tabs .tt_tabs_navigation.ui-widget-header {
+	float: none;
+}
+
+.ui-tabs .tt_tabs_navigation.ui-widget-header li {
+	float: none;
+	margin-left: -1px;
+	margin-right: 0;
+}
+
+.ui-tabs .tt_tabs_navigation.ui-widget-header li.ui-tabs-active {
+	margin-left: -1px;
+	margin-right: 0;
+}
+
+.ui-tabs .tt_tabs_navigation.ui-widget-header li a {
+	text-align: center;
+}
+
+.ui-tabs .tt_tabs_navigation.ui-widget-header li a:before {
+	left: -1px;
+	right: -1px;
+}
+
+.cmsmasters_timetable_shortcode:after {
+	content: '.'; /* Check this rule! */
+}
+
+.timetable_clearfix:after {
+	content: "."; /* Check this rule! */
+}
+
+table.tt_timetable th,
+table.tt_timetable td.tt_hours_column {
+	text-align: center;
+}
+
+table.tt_timetable .event {
+	text-align: center;
+}
+
+table.tt_timetable .event div {
+	text-align: inherit;
+}
+
+table.tt_timetable .event div.tt_tooltip_content {
+	text-align: inherit;
+}
+
+.tt_tooltip .tt_tooltip_text {
+	left: auto;
+	right: 0;
+}
+
+.tt_tooltip .tt_tooltip_arrow {
+	left: 0;
+	right: 0;
+}
+
+ul.tt_items_list li a,
+ul.tt_items_list li span {
+	float: right;
+}
+
+ul.tt_items_list li .value {
+	float: left;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_content_wrap.with_sidebar {
+	padding-left: 30px;
+	float: right;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_sidebar {
+	float: right;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_hours .cmsmasters_tt_event_hours_item .cmsmasters_tt_event_hours_item_title {
+	float: right;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_hours .cmsmasters_tt_event_hours_item .cmsmasters_tt_event_hours_item_values {
+	padding-left: 0;
+	padding-right: 15px;
+	text-align: left;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_details .cmsmasters_tt_event_details_item .cmsmasters_tt_event_details_item_title {
+	float: right;
+}
+
+.cmsmasters_tt_event .cmsmasters_tt_event_details .cmsmasters_tt_event_details_item .cmsmasters_tt_event_details_item_desc {
+	padding-left: 0;
+	padding-right: 15px;
+	text-align: left;
+}
+
+.cmsmasters_tt_event #event_hours_list:after {
+	content: '.'; /* Check this rule! */
+}
+
+.cmsmasters_tt_event #event_hours_list > li {
+	float: right;
+}
+
+.tt_upcoming_events_wrapper .tt_upcoming_event_controls > a {
+	margin-left: 3px;
+	margin-right: 0;
+	float: right;
+}
+
+.tt_upcoming_events_wrapper .tt_upcoming_event_controls > a:before {
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.tt_upcoming_events_wrapper .tt_upcoming_event_controls > a#upcoming_event_prev:before {
+	content: '\e900'; /* Check this rule! */
+}
+
+.tt_upcoming_events_wrapper .tt_upcoming_event_controls > a#upcoming_event_next:before {
+	content: '\e904'; /* Check this rule! */
+}
+
+ul.tt_upcoming_events li .tt_upcoming_events_event_container {
+	padding-left: 45px;
+	padding-right: 20px;
+}
+
+ul.tt_upcoming_events li .tt_upcoming_events_event_container:before {
+	content: '\e946'; /* Check this rule! */
+	left: 15px;
+	right: auto;
+	text-align: center;
+}
+
+ul.tt_upcoming_events li .tt_upcoming_events_event_container:hover:before {
+	content: '\e947'; /* Check this rule! */
+}
+
+@media only screen and (max-width: 950px) {
+  .cmsmasters_tt_event .cmsmasters_tt_event_content_wrap.with_sidebar {
+    float: none;
+    clear: both;
+    padding-left: 0;
+  }
+  .cmsmasters_tt_event .cmsmasters_tt_event_sidebar {
+    float: none;
+    clear: both;
+  }
+}
+
