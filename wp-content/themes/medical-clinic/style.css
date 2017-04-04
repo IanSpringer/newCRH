@@ -9527,12 +9527,39 @@ p{
   font-size: 15px !important;
   line-height: 24px !important;
 }
+.blue-btn{
+  -webkit-transition: background-color 2.5s ease;
+  -moz-transition: background-color 2.5s ease;
+  transition: background-color 2.5s ease;
+}
+
+.blue-btn:hover{
+  background-color: #3065b5 !important;
+  color: white !important;
+}
+#bottom{
+  background: #222222;
+}
+#bottom .menu-item{
+  border-color: #707070;
+}
+/*.headline{
+  position: absolute;
+}
+.headline_outer{
+  background-color: transparent !important;
+  background: rgba(255, 255, 255, .2);
+  border-bottom: .5px solid #708090;
+}*/
 /*------HomePage------*/
 .ls-wrapper{
   width: 100% !important;
   height: 100% !important;
   top: 0px !important;
   left: 0px !important;
+}
+#layerslider_2{
+  height: 500px !important;
 }
 .ls-wrapper > div{
 }
@@ -9552,6 +9579,12 @@ p{
   white-space: pre-line;
   width: 400px !important;
   margin-left: 50% !important;
+}
+.slider-link-1{
+  margin-left: 50%;
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
 }
 .ls-wrapper img{
   width: 100% !important;
@@ -9585,6 +9618,10 @@ p{
   height: 292px;
   width: 100%;
   object-fit: cover;
+}
+.home #cmsmasters_row_ .cmsmasters_row_inner{
+  width: 100%;
+  padding: 0px;
 }
 .home #cmsmasters_icon_list_items_ .cmsmasters_icon_list_icon{
   width: 80px !important;
@@ -9817,6 +9854,78 @@ html.csstransitions .header_mid{
   height: 350px;
   display: inline-block
 }
+#cmsmasters_row_ucnjxnszsc #google_map_{
+  height: 350px;
+}
+.blog-link-wrapper{
+  margin-top: 40px;
+}
+.blog-link a{
+  padding: 10px 20px;
+  border: 1px solid;
+}
+/*------Treatment Page------*/
+#cmsmasters_row_qrow59d5u0 .cmsmasters_column > p{
+  display: none;
+}
+.about-vid{
+  width: 45%;
+  display: inline-block;
+}
+.about-vid iframe{
+  height: 400px;
+}
+.ivf-link{
+  padding: 10px 20px;
+  border: 1px solid;
+  margin-top: 20px;
+}
+/*#cmsmasters_row_ympv3iwq4w .cmsmasters_row_inner{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('http://localhost:8888/CRH-new/wp-content/themes/medical-clinic/img/ivf-image-11-edited.jpg');
+  background-size: cover;
+  background-position: center center;
+}*/
+#cmsmasters_row_qrow59d5u0 .cmsmasters_text{
+  margin-bottom: 30px;
+}
+#cmsmasters_row_qrow59d5u0 .cmsmasters_text > p{
+  line-height: 30px !important;
+  text-align: center;
+  margin-top: 50px;
+}
+#cmsmasters_row_ympv3iwq4w {
+    background-image: url('http://localhost:8888/CRH-new/wp-content/themes/medical-clinic/img/ivf-image-11-edited.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+#cmsmasters_row_ympv3iwq4w .cmsmasters_text{
+  padding: 130px 20px;
+  color: white;
+}
+#cmsmasters_row_ympv3iwq4w .cmsmasters_text > p{
+  width: 65%;
+}
+#cmsmasters_row_ympv3iwq4w .cmsmasters_text a{
+  display: inline;
+  padding: 10px 20px;
+  border: 1px solid white;
+  color: white;
+  margin-top: 20px;
+}
+/*-----IVF Lab Page------*/
+.ivf-lab-container{
+      -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    margin-top: 60px;
+}
+/*------Blog Page------*/
+#cmsmasters_row_1mov48wvz3{
+  margin-top: 70px;
+}
 /*-----Causes page------*/
 .causes-text{
   margin-top: 50px;
@@ -9847,6 +9956,27 @@ html.csstransitions .header_mid{
 }
 #cmsmasters_row_zqflmpka3c .cmsmasters_text h3{
   font-size: 16px;
+}
+.causes-bottom{
+  display: inline-block;
+  width: 55%;
+  float: left;
+}
+.causes-bottom-1{
+  margin-right: 10%;
+  line-height: 30px;
+}
+.causes-bottom-2{
+  background: #0392ce;
+  padding: 2em;
+  width: 35%;
+}
+.causes-bottom-2 h5, .causes-bottom-2 h3, .causes-bottom-2 a{
+  color: white;
+}
+.causes-bottom-2 a{
+  padding: 10px;
+  border: 1px solid white;
 }
 /*-----Contact Us Page-----*/
 #cmsmasters_row_tfexre4edu .cmsmasters_row_inner{
@@ -9908,12 +10038,34 @@ html.csstransitions .header_mid{
 .block-3{
   background: #3eb8d7;
 }
+#cmsmasters_row_8pqql8rwmo .cmsmasters_contact_form{
+  width: 40%;
+  display: inline-block;
+  float: right;
+}
+#cmsmasters_row_8pqql8rwmo form{
+  background: #77797a;
+  padding: 2.5em;
+}
+#cmsmasters_row_8pqql8rwmo form input, #cmsmasters_row_8pqql8rwmo form textarea{
+  background: #77797a;
+  border: 1px solid white;
+}
+#cmsmasters_row_8pqql8rwmo form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white !important;
+}
+#cmsmasters_row_8pqql8rwmo form input[type=submit]{
+  color: white;
+}
+#cmsmasters_row_8pqql8rwmo form h1{
+  color: white;
+}
 /*-----Staff page------*/
 .staff-text{
    text-align: center;
     margin-top: 50px;
     font-weight: 200;
-    font-size: 19px;
+    font-size: 16px;
     width: 50%;
     margin-top: 50px;
     margin: 0 auto;
@@ -9926,6 +10078,12 @@ html.csstransitions .header_mid{
 #staff-text-1{
   border-right: 1px solid lightgrey;
 }
+/*------IVF Overview Page------*/
+#cmsmasters_row_j8hdyo80ky .p1{
+  line-height: 30px !important;
+  margin-top: 50px;
+  text-align: center;
+}
 /*--------Testing page--------*/
 #cmsmasters_row_stmf9084bj{
   padding-top: 50px;
@@ -9936,8 +10094,23 @@ html.csstransitions .header_mid{
 #cmsmasters_row_stmf9084bj p{
     color: white;
     line-height: 28px !important;
-    padding: 30px 0px;
-    text-align: center;
+    padding: 80px 0px;
+    text-align: left;
+    width: 70%;
+}
+.timeline-block{
+  text-align: center;
+  padding-top: 50px;
+}
+.timeline-block > p{
+  line-height: 30px !important;
+  margin-bottom: 40px;
+}
+.timeline-block h4{
+  padding: 10px 20px;
+  margin-top: 50px;
+  border: 1px solid;
+  display: inline;
 }
 .timeline {
   position: relative;
@@ -10227,6 +10400,18 @@ html.csstransitions .header_mid{
   }
   #header .header_mid .mid_nav_wrap{
     display: none;
+  }
+}
+@media (max-width: 660px){
+  .direction-l .flag:before, .direction-r .flag:before{
+    margin-left: -6px !important;
+    border: 4px solid #0392ce !important;
+  }
+  #cmsmasters_row_stmf9084bj p{
+    width: 100%;
+  }
+  #cmsmasters_row_ympv3iwq4w .cmsmasters_text > p{
+    width: 100%;
   }
 }
 
