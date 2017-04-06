@@ -9559,7 +9559,7 @@ p{
   left: 0px !important;
 }
 #layerslider_2{
-  height: 500px !important;
+  /*height: 500px !important;*/
 }
 .ls-wrapper > div{
 }
@@ -9590,6 +9590,14 @@ p{
   width: 100% !important;
   object-fit: cover;
 }
+#layerslider_2 .ls-layers .ls-in-out:nth-child(4) h2{
+  margin-left: 35% !important;
+  margin-top: 15% !important;
+}
+#layerslider_2 .ls-layers .ls-in-out:nth-child(4) h4{
+  margin-left: 35% !important;
+}
+
 .cmsmasters_row_inner{
 /*  width: 100% !important;
   padding: 0px !important;*/
@@ -9658,6 +9666,42 @@ html.csstransitions .header_mid{
   top: 0px;
   -webkit-transition: all .5s ease;
 }
+.home .welcome-img{
+  padding-right: 20px;
+}
+.home #cmsmasters_row_{
+  display: none;
+}
+.home .mobile-home{
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.home .mobile-home > p, .home .mobile-home > p > img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.home .mobile-home h4, .home .mobile-home h6{
+  position: absolute;
+  top: 0px;
+}
+.home .mobile-home-title{
+  color: white;
+  top: 25% !important;
+  left: 50%;
+  font-size: 26px;
+  margin-left: -80px;
+}
+.home .mobile-home-text{
+    top: 35% !important;
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+    left: 50%;
+    margin-left: -150px;
+    color: white;
+}
 .home .custom_html .service-link{
   padding: 15px;
   background: #3065b5;
@@ -9676,7 +9720,7 @@ html.csstransitions .header_mid{
   margin-left: -107px !important;
 }
 .home .forth-custom > a{
-  margin-left: -99px !important;
+  margin-left: -127px !important;
 }
 .fade-in{
   margin-top: -28px !important;
@@ -9804,7 +9848,7 @@ html.csstransitions .header_mid{
 }
 .about-top-img img{
   width: 100%;
-  height: 400px;
+  height: 500px;
   object-fit: cover;
 }
 .about-top-img .about-img-text{
@@ -9915,6 +9959,14 @@ html.csstransitions .header_mid{
   color: white;
   margin-top: 20px;
 }
+#cmsmasters_row_bhyetasrrs{
+  background: #dedfe0;
+  text-align: center;
+  padding-top: 50px;
+}
+#cmsmasters_row_bhyetasrrs h2{
+  text-align: center;
+}
 /*-----IVF Lab Page------*/
 .ivf-lab-container{
       -webkit-column-count: 2; /* Chrome, Safari, Opera */
@@ -10001,8 +10053,7 @@ html.csstransitions .header_mid{
   left: 0px !important;
 }
 .box-wrapper{
-  width: 750px;
-  /*margin: 0 auto;*/
+  width: 500px;
 }
 .block{
   padding: 2em;
@@ -10044,21 +10095,25 @@ html.csstransitions .header_mid{
   float: right;
 }
 #cmsmasters_row_8pqql8rwmo form{
-  background: #77797a;
+  background: #dedfe0;
   padding: 2.5em;
 }
 #cmsmasters_row_8pqql8rwmo form input, #cmsmasters_row_8pqql8rwmo form textarea{
-  background: #77797a;
-  border: 1px solid white;
+  background: #F0F0F0;
+  /*border: 1px solid black;*/
 }
-#cmsmasters_row_8pqql8rwmo form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: white !important;
+#cmsmasters_row_8pqql8rwmo form input::-webkit-input-placeholder, #cmsmasters_row_8pqql8rwmo form textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black !important;
 }
 #cmsmasters_row_8pqql8rwmo form input[type=submit]{
-  color: white;
+  color: black;
+  border: 1px solid black;
 }
 #cmsmasters_row_8pqql8rwmo form h1{
-  color: white;
+  color: black;
+}
+.wpcf7-form-control-wrap textarea{
+  height: 100px;
 }
 /*-----Staff page------*/
 .staff-text{
@@ -10379,6 +10434,39 @@ html.csstransitions .header_mid{
 }
 
 }
+/*-------Support page--------*/
+#cmsmasters_row_qjmmu5dioc{
+  margin-top: 50px;
+}
+#cmsmasters_row_qjmmu5dioc .cmsmasters_image_l{
+  margin-top: -50px;
+  width: 50%;
+}
+#cmsmasters_row_qjmmu5dioc .cmsmasters_image_l img{
+  width: 100%;
+}
+#cmsmasters_row_qjmmu5dioc .cmsmasters_text{
+  margin-top: 100px;
+}
+#cmsmasters_row_qjmmu5dioc .support-text{
+  width: 50%;
+  margin-top: 70px;
+  float: left;
+}
+#cmsmasters_row_qjmmu5dioc .cmsmasters_image_r{
+  width: 45%;
+  margin: 0;
+  margin-top: 50px;
+}
+#cmsmasters_row_qjmmu5dioc .cmsmasters_image_r img{
+  width: 100%;
+}
+#cmsmasters_row_qjmmu5dioc .support-subtext{
+/*  clear: both;
+  width: 50%;
+  float: left;*/
+  margin-top: 10px;
+}
 
 @media screen and (min-width: 400px ?? max-width: 660px) {
 
@@ -10395,11 +10483,39 @@ html.csstransitions .header_mid{
   }
 }
 @media (max-width: 1200px){
-  #header .header_mid .resp_mid_nav_wrap{
-    display: block;
+
+}
+@media (max-width: 940px){
+  .box-wrapper{
+    margin: 0 auto;
   }
-  #header .header_mid .mid_nav_wrap{
-    display: none;
+  #cmsmasters_row_8pqql8rwmo .cmsmasters_contact_form{
+    width: 80%;
+    margin: 0 auto;
+    clear: both;
+    display: block;
+    float: none;
+  }
+  .block{
+    margin-bottom: 40px
+  }
+}
+@media (max-width: 768px){
+  .home #cmsmasters_icon_list_items_{
+    width: 100%;
+  }
+  #cmsmasters_row_fok87actrh .custom_html{
+    width: 100%;
+  }
+  #cmsmasters_row_fok87actrh .custom_html a{
+    opacity: 1;
+    margin-top: -30px;
+  }
+  #blog_1halekczo4, .about-vid{
+    width: 100%;
+  }
+  .about-vid{
+    margin-top: 30px;
   }
 }
 @media (max-width: 660px){
@@ -10412,6 +10528,78 @@ html.csstransitions .header_mid{
   }
   #cmsmasters_row_ympv3iwq4w .cmsmasters_text > p{
     width: 100%;
+  }
+    #cmsmasters_row_uah49489xx{
+    display: none;
+  }
+  .home #cmsmasters_row_{
+    display: block;
+  }
+  .home .mobile-home .slider-link-1{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  #cmsmasters_row_b7mxn7hdv0 .cmsmasters_contact_form, #cmsmasters_row_b7mxn7hdv0 .cmsmasters_profile{
+    width: 100%;
+  }
+  .staff-text{
+    width: 100%;
+  }
+  #staff-text-1{
+    border-right: 0px;
+    border-bottom: 1px solid lightgrey;
+  }
+  .causes-bottom-1, .causes-bottom-2{
+    width: 100%;
+    float: none;
+    display: block;
+  }
+  #cmsmasters_row_zqflmpka3c .cmsmasters_text{
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  #cmsmasters_row_zqflmpka3c .cmsmasters_img{
+    width: 70%;
+    margin-left: 15%;
+  }
+  #cmsmasters_row_zqflmpka3c .cmsmasters_img img{
+    margin: 0;
+  }
+  .doc-and-staff{
+    float: none;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .ivf-lab-container{
+        -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 1;
+  }
+  #cmsmasters_row_o1nx527hyt .custom_html{
+    float: none;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .home .welcome-img{
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 540px){
+  .block{
+    width: 90%;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .box-wrapper{
+    width: auto;
+  }
+  #cmsmasters_row_8pqql8rwmo .cmsmasters_contact_form{
+    width: 90%;
   }
 }
 
